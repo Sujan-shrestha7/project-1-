@@ -12,9 +12,21 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url(hhh.jpg) no-repeat;
+    background: url(image.jpg) no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+#particles-js{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    position: absolute;
+   top: 0;
+   left: 0;
+
 }
 
 header{
@@ -28,9 +40,20 @@ header{
     align-items: center;
     z-index: 99;
 }
+
+section{
+    position: relative;
+    font-size: 5em;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+}
+
 .logo{
     font-size: 2em;
-    color: #342e2e;
+    color: #fff;
     user-select: none;
 
 }
@@ -82,7 +105,7 @@ header{
 }
 
 .wrapper{
-    position: relative;
+    position: absolute;
     width: 400px;
     height: 440px;
     background:transparent;
