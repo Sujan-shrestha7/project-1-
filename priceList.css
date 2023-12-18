@@ -12,7 +12,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: rgb(99, 77, 77);
+    background: rgb(23, 23, 23);
     background-size: cover;
     background-position: center;
 }
@@ -48,6 +48,7 @@ header{
     justify-content: space-between;
     align-items: center;
     z-index: 99;
+    background: black;
 }
 
 .logo{
@@ -83,3 +84,36 @@ header{
     transform-origin:left;
     transform: scaleX(1);
  }
+ 
+.navigation .button{
+    background: transparent;
+    color: #fff;
+    font-size: 1.3em;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border: transparent;
+    cursor: pointer;
+}
+
+.wrapper{
+    position: absolute;
+    width: 280px;
+    height: 500px;
+    border: 2px solid rgba(118, 104, 104, 0.5);
+    border-radius: 10px;
+    margin-left: 1110px;
+    margin-bottom: 280px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px rgba(8, 7, 0.5);
+    transform: scale(0);
+    transition: transform .4s ease, height .2s ease;
+    background: rgb(58, 55, 55);
+    z-index: 1;
+    margin-left: 1380px;
+
+}
+
+.wrapper.active-popup{
+    transform: scale(1);
+}

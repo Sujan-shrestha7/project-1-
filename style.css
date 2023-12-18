@@ -286,3 +286,7 @@ z-index: 1;
 .login-register p a:hover{
     text-decoration: underline;
 }
+.wishes{
+    margin-left: 50px;
+    font-size: 0.95em;
+}
